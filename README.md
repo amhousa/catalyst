@@ -1,5 +1,5 @@
-<a href="https://catalyst.dev" target="_blank" rel="noopener norerrer">
-  <img src="https://storage.googleapis.com/bigcommerce-developers/images/catalyst_readme_banner.png" alt="Catalyst for Composable Commerce Image Banner" title="Catalyst">
+<a href="https://catalyst.dev" target="_blank" rel="noopener noreferrer">
+  <img src="https://storage.googleapis.com/bigcommerce-developers/images/catalyst_readme_banner.png" alt="تصویر بنر Catalyst for Composable Commerce" title="Catalyst">
 </a>
 
 <br />
@@ -7,51 +7,45 @@
 
 <div align="center">
 
-[![MIT License](https://img.shields.io/github/license/bigcommerce/catalyst)](LICENSE.md)
-[![Lighthouse Report](https://github.com/bigcommerce/catalyst/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/bigcommerce/catalyst/actions/workflows/lighthouse.yml) [![Lint, Typecheck, gql.tada](https://github.com/bigcommerce/catalyst/actions/workflows/basic.yml/badge.svg)](https://github.com/bigcommerce/catalyst/actions/workflows/basic.yml)
+[![مجوز MIT](https://img.shields.io/github/license/bigcommerce/catalyst)](LICENSE.md)
+[![گزارش Lighthouse](https://github.com/bigcommerce/catalyst/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/bigcommerce/catalyst/actions/workflows/lighthouse.yml) [![Lint, Typecheck, gql.tada](https://github.com/bigcommerce/catalyst/actions/workflows/basic.yml/badge.svg)](https://github.com/bigcommerce/catalyst/actions/workflows/basic.yml)
 
 </div>
 
-**Catalyst** is the composable, fully customizable headless commerce framework for
-[BigCommerce](https://www.bigcommerce.com/). Catalyst is built with [Next.js](https://nextjs.org/), uses
-our [React](https://react.dev/) storefront components, and is backed by the
-[GraphQL Storefront API](https://developer.bigcommerce.com/docs/storefront/graphql).
+**Catalyst** یک چارچوب ترکیبی و کاملاً قابل سفارشی‌سازی برای تجارت بی‌سر (Headless Commerce) در پلتفرم [BigCommerce](https://www.bigcommerce.com/) است. Catalyst با استفاده از [Next.js](https://nextjs.org/) ساخته شده است، از کامپوننت‌های فروشگاهی [React](https://react.dev/) استفاده می‌کند و بر پایه [GraphQL Storefront API](https://developer.bigcommerce.com/docs/storefront/graphql) طراحی شده است.
 
-By choosing Catalyst, you'll have a fully-functional storefront within a few seconds, and spend zero time on wiring
-up APIs or building SEO, Accessibility, and Performance-optimized ecommerce components you've probably written many
-times before. You can instead go straight to work building your brand and making this your own.
+با انتخاب Catalyst، شما می‌توانید در چند ثانیه یک فروشگاه کاملاً کاربردی راه‌اندازی کنید و زمان خود را برای اتصال APIها یا ساخت کامپوننت‌های بهینه‌شده برای SEO، دسترسی‌پذیری و عملکرد که احتمالاً قبلاً بارها نوشته‌اید، صرف نکنید. در عوض، می‌توانید مستقیماً به ساخت برند خود و ایجاد سفارشی‌سازی‌های لازم بپردازید.
 
 ![-----------------------------------------------------](https://storage.googleapis.com/bigcommerce-developers/images/catalyst_readme_hr.png)
 
 <p align="center">
  <a href="https://www.catalyst.dev">🚀 catalyst.dev</a> •
- <a href="https://developer.bigcommerce.com/community">🤗 BigCommerce Developer Community</a> •
- <a href="https://github.com/bigcommerce/catalyst/discussions">💬 GitHub Discussions</a> •
- <a href="/docs">💡 Docs in this repo</a>
+ <a href="https://developer.bigcommerce.com/community">🤗 انجمن توسعه‌دهندگان BigCommerce</a> •
+ <a href="https://github.com/bigcommerce/catalyst/discussions">💬 بحث‌های گیت‌هاب</a> •
+ <a href="/docs">💡 مستندات موجود در این مخزن</a>
 </p>
 
 ![-----------------------------------------------------](https://storage.googleapis.com/bigcommerce-developers/images/catalyst_readme_hr.png)
 
+## استقرار روی Vercel
 
-## Deploy on Vercel
+ساده‌ترین روش برای استقرار فروشگاه Catalyst، استفاده از [پلتفرم Vercel](https://vercel.com/new) است که توسط سازندگان Next.js ارائه شده است.
 
-The easiest way to deploy your Catalyst Storefront is to use the [Vercel Platform](https://vercel.com/new) from the creators of Next.js.
-
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+مستندات استقرار Next.js را در [اینجا](https://nextjs.org/docs/deployment) مطالعه کنید.
 
 <div align="left">
-  <a href="https://vercel.com/new/clone?repository-url=https://github.com/bigcommerce/catalyst&root-directory=core&project-name=my-catalyst-storefront&repository-name=my-catalyst-storefront&integration-ids=oac_nsrwzogJLEFglVwt2060kB0y&external-id=catalyst&demo-title=BigCommerce+Catalyst+with+Vercel&demo-description=Create+a+BigCommerce+Catalyst+Storefront+and+Deploy+to+Vercel&demo-url=catalyst-demo.site&demo-image=https://storage.googleapis.com/s.mkswft.com/RmlsZTozODgzZmY3Yy1hNmVlLTQ1MGUtYjRkMS1mMjEyNzgxNjk5MTY%3D/Social-image-Catalyst.png"><img src="https://vercel.com/button" alt="Deploy with Vercel"/></a>
+  <a href="https://vercel.com/new/clone?repository-url=https://github.com/bigcommerce/catalyst&root-directory=core&project-name=my-catalyst-storefront&repository-name=my-catalyst-storefront&integration-ids=oac_nsrwzogJLEFglVwt2060kB0y&external-id=catalyst&demo-title=BigCommerce+Catalyst+with+Vercel&demo-description=Create+a+BigCommerce+Catalyst+Storefront+and+Deploy+to+Vercel&demo-url=catalyst-demo.site&demo-image=https://storage.googleapis.com/s.mkswft.com/RmlsZTozODgzZmY3Yy1hNmVlLTQ1MGUtYjRkMS1mMjEyNzgxNjk5MTY%3D/Social-image-Catalyst.png"><img src="https://vercel.com/button" alt="استقرار با Vercel"/></a>
 </div>
 
-## Quickstart
+## شروع سریع
 
-Create a new project interactively by running:
+برای ایجاد یک پروژه جدید به صورت تعاملی، دستور زیر را اجرا کنید:
 
 ```bash
 npm create @bigcommerce/catalyst@latest
 ```
 
-You'll then get the following prompts:
+سپس با درخواست‌های زیر روبرو خواهید شد:
 
 ```console
 ? What would you like to call your project?  my-faster-storefront
@@ -66,23 +60,23 @@ You'll then get the following prompts:
 Success! Created 'my-faster-storefront' at '/Users/first.last/Documents/GitHub/my-faster-storefront'
 ```
 
-Next steps:
+مراحل بعدی:
 
 ```bash
 cd my-faster-storefront && npm run dev
 ```
 
-Learn more about Catalyst at [catalyst.dev](https://catalyst.dev).
+اطلاعات بیشتر درباره Catalyst را در [catalyst.dev](https://catalyst.dev) بیابید.
 
-## Resources
+## منابع
 
-- [Catalyst Documentation](https://catalyst.dev/docs/)
-- [GraphQL Storefront API Playground](https://developer.bigcommerce.com/graphql-storefront/playground)
-- [GraphQL Storefront API Explorer](https://developer.bigcommerce.com/graphql-storefront/explorer)
-- [BigCommerce DevDocs](https://developer.bigcommerce.com/docs/build)
+- [مستندات Catalyst](https://catalyst.dev/docs/)
+- [Playground API گراف‌کیوال فروشگاه](https://developer.bigcommerce.com/graphql-storefront/playground)
+- [Explorer API گراف‌کیوال فروشگاه](https://developer.bigcommerce.com/graphql-storefront/explorer)
+- [مستندات توسعه‌دهندگان BigCommerce](https://developer.bigcommerce.com/docs/build)
 
 ![-----------------------------------------------------](https://storage.googleapis.com/bigcommerce-developers/images/catalyst_readme_hr.png)
 
-> [!IMPORTANT]
-> If you just want to build a storefront, start with the [CLI](#quickstart) which will install the Next.js application in [/core](/core/).
-> If you wish to contribute back to Catalyst or create a fork of Catalyst, you can check the [docs for this monorepo](https://catalyst.dev/docs/monorepo) to get started.
+> [!مهم]
+> اگر تنها قصد دارید یک فروشگاه بسازید، از [CLI](#quickstart) شروع کنید که برنامه Next.js را در مسیر [/core](/core/) نصب می‌کند.  
+> اگر می‌خواهید در توسعه Catalyst مشارکت کنید یا یک فورک از Catalyst ایجاد کنید، می‌توانید از [مستندات این مونو‌ریپو](https://catalyst.dev/docs/monorepo) برای شروع استفاده کنید.

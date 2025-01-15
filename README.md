@@ -11,11 +11,13 @@
 [![گزارش Lighthouse](https://github.com/bigcommerce/catalyst/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/bigcommerce/catalyst/actions/workflows/lighthouse.yml) [![Lint, Typecheck, gql.tada](https://github.com/bigcommerce/catalyst/actions/workflows/basic.yml/badge.svg)](https://github.com/bigcommerce/catalyst/actions/workflows/basic.yml)
 
 </div>
+<div dir="rtl">
 
 **Catalyst** یک چارچوب ترکیبی و کاملاً قابل سفارشی‌سازی برای تجارت بی‌سر (Headless Commerce) در پلتفرم [BigCommerce](https://www.bigcommerce.com/) است. Catalyst با استفاده از [Next.js](https://nextjs.org/) ساخته شده است، از کامپوننت‌های فروشگاهی [React](https://react.dev/) استفاده می‌کند و بر پایه [GraphQL Storefront API](https://developer.bigcommerce.com/docs/storefront/graphql) طراحی شده است.
 
 با انتخاب Catalyst، شما می‌توانید در چند ثانیه یک فروشگاه کاملاً کاربردی راه‌اندازی کنید و زمان خود را برای اتصال APIها یا ساخت کامپوننت‌های بهینه‌شده برای SEO، دسترسی‌پذیری و عملکرد که احتمالاً قبلاً بارها نوشته‌اید، صرف نکنید. در عوض، می‌توانید مستقیماً به ساخت برند خود و ایجاد سفارشی‌سازی‌های لازم بپردازید.
 
+</div>
 ![-----------------------------------------------------](https://storage.googleapis.com/bigcommerce-developers/images/catalyst_readme_hr.png)
 
 <p align="center">
@@ -77,6 +79,6 @@ cd my-faster-storefront && npm run dev
 
 ![-----------------------------------------------------](https://storage.googleapis.com/bigcommerce-developers/images/catalyst_readme_hr.png)
 
-> [!مهم]
+> [!IMPORTANT]
 > اگر تنها قصد دارید یک فروشگاه بسازید، از [CLI](#quickstart) شروع کنید که برنامه Next.js را در مسیر [/core](/core/) نصب می‌کند.  
 > اگر می‌خواهید در توسعه Catalyst مشارکت کنید یا یک فورک از Catalyst ایجاد کنید، می‌توانید از [مستندات این مونو‌ریپو](https://catalyst.dev/docs/monorepo) برای شروع استفاده کنید.
